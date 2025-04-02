@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Header</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="top-bar-content">
+        <div class="service-times">
+          <span class="clock-icon">🕒</span> Service Times: Sundays 11 AM - 3 PM
+        </div>
+        <div class="join-live">
+          <a href="#">JOIN LIVE</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="logo-church-container">
+        <div class="logo">
+          <a href="home.html">
+            <img src="attached_assets/ChatGPT Image Mar 29, 2025, 05_08_19 PM.png" alt="Antioch Church Logo"
+              width="150">
+          </a>
+        </div>
+        <div class="church-details">
+          <h1>የኢትዮጵያና ኤርትራ ክርስቲያን</h1>
+          <h1>ኅብረት ቤተክርስቲያን</h1>
+          <p>ETHIOPIAN AND ERITREAN </p>
+          <p>CHRISTIAN FELLOWSHIP CHURCH </p>
+          <p>MADISON - WISCONSIN</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="ministries.html">MINISTRIES</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li class="give-button"><a href="give.html">GIVE</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+      document.querySelector('nav').classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>
